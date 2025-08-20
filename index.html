@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>テスト</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+  <header>
+    <h1>Webアプリケーション２</h1>
+  </header>
+
+  <main>
+    <p class="content-text">授業難しかった<br>けど面白かった</p>
+    <div class="image-container">
+      <img src="https://user0514.cdnw.net/shared/img/thumb/21830aIMGL99841974_TP_V.jpg" alt="サンプル画像">
+    </div>
+
+    <div class="button-container">
+      <button id="backToTop" type="button" aria-label="ページの一番上へ戻る">
+        一番上へ戻る
+      </button>
+    </div>
+  </main>
+
+  <footer>
+    <small>&copy; 2025 Example</small>
+  </footer>
+
+  <script>
+    document.getElementById('backToTop').addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>

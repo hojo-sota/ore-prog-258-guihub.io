@@ -24,11 +24,18 @@ main {
   margin-bottom: 1.5rem;
 }
 
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 中央揃え */
+  gap: 1.5rem; /* 画像同士の間隔 */
+  margin-bottom: 2rem;
+}
+
 .image-container img {
   width: 300px;
   height: auto;
   display: block;
-  margin: 0 auto;
 }
 
 .button-container {
